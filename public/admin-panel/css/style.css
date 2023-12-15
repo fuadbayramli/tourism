@@ -1,0 +1,29 @@
+.del-image {
+    position: absolute;
+    z-index: 999;
+    bottom: 25px;
+    background-color: #00000078;
+    padding: 10px;
+    right: 44px;
+    color: #ffffff;
+    border: none;
+}
+.no-fixed{
+  position: relative!important;
+  z-index: 0!important;
+}
+.logo {
+  margin-top: 10px;
+}
+
+.sticker_img{
+  margin-bottom: 20px;
+}
+
+.bootstrap-datetimepicker-widget{
+      display: block!important;
+}
+
+#card {
+  padding: 20px!important;
+}
