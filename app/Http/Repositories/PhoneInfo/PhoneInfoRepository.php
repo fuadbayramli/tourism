@@ -52,7 +52,7 @@ class PhoneInfoRepository extends BaseRepository
         $currentPage = request()->input('page', 1);
         Cache::forget('phoneInfoData'. $currentPage);
 
-        $collection = $this->model::query();
+        $collection = $this->model::query()->select(['id', 'name', 'surname', 'phone', 'email', 'address']);
 
         if (isset($params['name']) && $params['name']) {
             Cache::forget('phoneInfoData'. $currentPage);

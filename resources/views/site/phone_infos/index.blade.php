@@ -126,7 +126,7 @@
                                         <td>{{ $data->phone }}</td>
                                         <td>{{ $data->address }}</td>
                                         <td>{{ $data->email }}</td>
-                                        <td><a href="{{ route('phone-infos.edit', $data->id) }}"><i
+                                        <td><a href="{{ route('phone-infos.edit', ['phone_info' => $data->id]) }}"><i
                                                     class="fa fa-eye"></i></a>
                                             <form method="post" id="data-item-form{{ $data->id }}"
                                                   action="{{ route('phone-infos.destroy', ['phone_info' => $data->id]) }}">
