@@ -78,31 +78,31 @@
                                 <th scope="col">#</th>
                                 <th scope="col">
                                     Name
-                                    <a href="{{ request()->fullUrlWithQuery(['cache' => 'forget', 'sortBy' => 'name', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
+                                    <a href="{{ request()->fullUrlWithQuery(['sortBy' => 'name', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
                                         <i class="fa fa-sort-alpha-asc"></i>
                                     </a>
                                 </th>
                                 <th scope="col">
                                     Surname
-                                    <a href="{{ request()->fullUrlWithQuery(['cache' => 'forget', 'sortBy' => 'surname', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
+                                    <a href="{{ request()->fullUrlWithQuery(['sortBy' => 'surname', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
                                         <i class="fa fa-sort-alpha-asc"></i>
                                     </a>
                                 </th>
                                 <th scope="col">
                                     Əlaqə nömrəsi
-                                    <a href="{{ request()->fullUrlWithQuery(['cache' => 'forget', 'sortBy' => 'phone', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
+                                    <a href="{{ request()->fullUrlWithQuery(['sortBy' => 'phone', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
                                         <i class="fa fa-sort-alpha-asc"></i>
                                     </a>
                                 </th>
                                 <th scope="col">
                                     Ünvan
-                                    <a href="{{ request()->fullUrlWithQuery(['cache' => 'forget', 'sortBy' => 'address', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
+                                    <a href="{{ request()->fullUrlWithQuery(['sortBy' => 'address', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
                                         <i class="fa fa-sort-alpha-asc"></i>
                                     </a>
                                 </th>
                                 <th scope="col">
                                     Email
-                                    <a href="{{ request()->fullUrlWithQuery(['cache' => 'forget', 'sortBy' => 'email', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
+                                    <a href="{{ request()->fullUrlWithQuery(['sortBy' => 'email', 'sort' => request()->get('sort') =='asc' ? 'desc' : 'asc']) }}">
                                         <i class="fa fa-sort-alpha-asc"></i>
                                     </a>
                                 </th>
